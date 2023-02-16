@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * main - prints the standard error
+ * main - Entry point
  *
  * returns 1
  */
