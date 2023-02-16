@@ -1,9 +1,9 @@
 #include <unistd.h>
 
 /**
- * main - prints the standrad error sandwiched around the  standard outpu/t
+ * main - prints the standard error
  *
- * Return: returns 1
+ * returns 1
  */
 int main(void)
 {
