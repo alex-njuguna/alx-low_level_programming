@@ -12,7 +12,6 @@ int main(void)
 
 	for (mychar = 'a'; mychar < 'z'; ++mychar)
 		putchar(mychar);
-	for (mychar = 'A'; mychar < 'Z'; ++mychar)
-		putchar(mychar);
+	putchar('\n');
 	return (0);
 }
