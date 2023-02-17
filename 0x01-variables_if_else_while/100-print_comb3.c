@@ -10,19 +10,22 @@ int main(void)
 {
 	int num, num1;
 
-	for (num = 48; num <= 78; num++)
+	for (num = 48; num <= 57; num++)
 	{
-		for (num1 = num + 1; num1 <= 78; num1++ )
+		for (num1 = num + 1; num1 <= 57; num1++)
 		{
-			putchar(num);
-			putchar(num1);
-
-			if (num == 56 && num1 == 78)
+			if (num != num1 && num > num1)
 			{
-				break;
+				putchar(num);
+                       		putchar(num1);
+
+                                if (num == 56 && num1 == 57)
+                        	{
+                               		break;
+                        	}
+                        	putchar(',');
+                        	putchar(' ');
 			}
-			putchar(',');
-			putchar(' ');
 		}
 	}
 	putchar('\n');
