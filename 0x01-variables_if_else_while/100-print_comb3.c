@@ -1,31 +1,26 @@
 #include <stdio.h>
-
 /**
- * main - entry point
+ * main - Entry point
  *
- * Return: 0
- *
+ * Return: Always 0 (Success/completed)
  */
 int main(void)
 {
-	int num, num1;
+	int number_left;
+	int number_right;
 
-	for (num = 48; num <= 57; num++)
+	for (number_left = 48; number_right <= 78; number_left++)
 	{
-		for (num1 = num + 1; num1 <= 57; num1++)
+		for (number_right = number_left + 1 ; number_right <= 78; number_right++)
 		{
-			if (num != num1 && num > num1)
+			putchar(number_left);
+			putchar (number_right);
+			if ((number_left == 56) && (number_right == 78))
 			{
-				putchar(num);
-                       		putchar(num1);
-
-                                if (num == 56 && num1 == 57)
-                        	{
-                               		break;
-                        	}
-                        	putchar(',');
-                        	putchar(' ');
+				break;
 			}
+			putchar(',');
+			putchar (' ');
 		}
 	}
 	putchar('\n');
