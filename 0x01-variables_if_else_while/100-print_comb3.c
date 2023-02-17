@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -6,21 +7,21 @@
  */
 int main(void)
 {
-	int number_left;
-	int number_right;
+	int num1, num2;
 
-	for (number_left = 48; number_right <= 78; number_left++)
+	for ( num1 = 48; num1 < 58; num1++)
 	{
-		for (number_right = number_left + 1 ; number_right <= 78; number_right++)
+		for (num2 = 48; num2 < 58; num2++)
 		{
-			putchar(number_left);
-			putchar (number_right);
-			if ((number_left == 56) && (number_right == 78))
+			if (num1 < num2)
 			{
-				break;
+				putchar(num1);
+				putchar(num2);
+				if (num1 == 56 && num2 == 57)
+					break;
+				putchar(',');
+				putchar(' ');
 			}
-			putchar(',');
-			putchar (' ');
 		}
 	}
 	putchar('\n');
