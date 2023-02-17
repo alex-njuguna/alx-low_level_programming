@@ -3,14 +3,14 @@
 /**
  * main - entry point
  *
- * return: 0
+ * Return: 0
  *
  */
 int main(void)
 {
 	int num1, num2, num3, num4;
 
-	for (num1 = 48; num1 < 58; num1++)
+	for (num1 = 47; num1 < 58; num1++)
 	{
 		for (num2 = 48; num2 < 58; num2++)
 		{
@@ -18,7 +18,7 @@ int main(void)
 			{
 				for (num4 = 48; num4 < 58; num4++)
 				{
-					if (num1 < num2 && num1 < num3 && num1 < num4 && num2 < num3 && num2 < num4 && num3 < num4)
+					if ( num1 <= num3 && num2 < num3 && num2 < num4)
 					{
 						putchar(num1);
 						putchar(num2);
