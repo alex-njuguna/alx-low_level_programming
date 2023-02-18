@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int num1, num2, num3, num4;
+	int num1, num2, num3, num4, sum1, sum2;
 
 	for (num1 = 48; num1 < 58; num1++)
 	{
@@ -18,7 +18,9 @@ int main(void)
 			{
 				for (num4 = 48; num4 < 58; num4++)
 				{
-					if ((num1 + num2) <= (num3 + num4))
+					sum1 = (num1 * 10) + num2;
+					sum2 = (num3 * 10) + num4;
+					if (sum1 < sum2)
 					{
 						putchar(num1);
 						putchar(num2);
