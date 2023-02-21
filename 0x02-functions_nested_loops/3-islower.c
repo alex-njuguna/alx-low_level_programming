@@ -2,7 +2,7 @@
 
 /**
  * _islower - init func
- *
+ *@c: par to be tested
  * Return: 0 or 1
  *
  */
