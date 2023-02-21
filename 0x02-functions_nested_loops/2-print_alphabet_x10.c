@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet_x10 - function init
@@ -21,17 +21,4 @@ void print_alphabet_x10(void)
 	}
 	putchar('\n');
 	while (i < 10);
-	return;
-}
-
-/**
- * main- check code
- *
- * Return: 0
- *
- */
-int main(void)
-{
-	print_alphabet_x10();
-	return (0);
 }
