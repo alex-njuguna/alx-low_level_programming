@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * print_alphabet - fucntion initialization
@@ -16,16 +16,4 @@ void print_alphabet(void)
 	}
 	putchar('\n');
 	return;
-}
-
-/**
- * main - check code
- *
- * Return: 0
- *
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
 }
