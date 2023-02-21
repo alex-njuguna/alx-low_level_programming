@@ -1,7 +1,7 @@
 #include "main.h"
 
-/*
- * _isalpha - func init
+/**
+ * _isalpha - check if character is alphabet
  *@c: par to be tested
  * Retur: 1 or 0
  *
