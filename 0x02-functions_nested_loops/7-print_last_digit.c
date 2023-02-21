@@ -2,24 +2,25 @@
 
 /**
  * print_last_digit - print last digit
- * @i: par to be checked
+ * @n: par to be checked
  * Return: 0
  *
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
-	int n;
+int last_digit;
 
-	if (i > 0)
-	{
-		n = i % 10;
-		_putchar(n + '0');
-		return (n);
-	}
-	else
-	{
-		n = (i * -1) % 10;
-		_putchar(n + '0');
-		return (n);
-	}
+if (n < 0)
+{
+last_digit = (-1 * (n % 10));
+_putchar (last_digit + '0');
+return (last_digit);
+}
+
+else
+{
+last_digit = (n % 10);
+_putchar (last_digit + '0');
+return (last_digit);
+}
 }
