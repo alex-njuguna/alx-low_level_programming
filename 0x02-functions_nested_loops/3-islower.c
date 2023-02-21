@@ -8,7 +8,7 @@
  */
 int _islower(int c)
 {
-	if (c.islower())
+	if (islower(c))
 	{
 		return (1);
 	}
