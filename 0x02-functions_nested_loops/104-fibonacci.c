@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * fibonacci3 - print 98 fibonnaci
- *
+ * fib - print 98 fibonnaci
+ *@n: 98
  * Return: 0
  */
 int fib(int n)
 {
 	int i;
 
-	return (1);
-	return (2);
-	for (i = 3; i <= n; i++)
-	{
-		return fib(i - 1) + fib(i - 2);
-	}
+	printf("1");
+	printf("2");
+	do {
+		return (fib(i - 1) + fib(i - 2));
+		i++;
+	} while (i < n);
 
 }
 
@@ -27,6 +27,6 @@ int main(void)
 {
 	int n = 98;
 
-	printf("%d\n", fib(n));
+	printf("%d, ", fib(n));
 	return (0);
 }
