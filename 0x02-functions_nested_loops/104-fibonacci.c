@@ -11,6 +11,7 @@ int fib(int n)
 
 	printf("1");
 	printf("2");
+	i = 3;
 	do {
 		result = fib(i - 1) + fib(i - 2);
 		return (result);
