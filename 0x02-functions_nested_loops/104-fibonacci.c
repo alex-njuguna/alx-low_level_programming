@@ -3,10 +3,10 @@
 
 /**
  * fibonacci3 - print 98 fibonnaci
- *
+ *@n: 98
  * Return: 0
  */
-void fibonacci3(void)
+void fibonacci3(int n = 98)
 {
 	int n, result;
 
