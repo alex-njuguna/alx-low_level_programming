@@ -6,9 +6,9 @@
  *@n: 98
  * Return: 0
  */
-void fibonacci3(int n = 98)
+void fibonacci3(int n)
 {
-	int n, result;
+	int result;
 
 	printf("1\n");
 	printf("2\n");
