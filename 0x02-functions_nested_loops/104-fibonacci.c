@@ -8,9 +8,7 @@
 int fib(int n)
 {
 	int i, result;
-
-	printf("1");
-	printf("2");
+	
 	i = 3;
 	do {
 		result = fib(i - 1) + fib(i - 2);
@@ -29,6 +27,8 @@ int main(void)
 {
 	int n = 98;
 
+	printf("1, ");
+	printf("2, ");
 	printf("%d, ", fib(n));
 	return (0);
 }
