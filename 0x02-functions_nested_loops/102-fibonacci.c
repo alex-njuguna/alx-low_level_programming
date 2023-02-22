@@ -20,6 +20,6 @@ for (i = 3; i <= 50; ++i)
         t2 = nextTerm;
         nextTerm = t1 + t2;
 }
-printf('\n');
+printf("\n");
 return (0);
 }
