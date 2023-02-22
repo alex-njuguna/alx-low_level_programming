@@ -7,12 +7,13 @@
  */
 int fib(int n)
 {
-	int i;
+	int i, result;
 
 	printf("1");
 	printf("2");
 	do {
-		return (fib(i - 1) + fib(i - 2));
+		result = fib(i - 1) + fib(i - 2);
+		return (result);
 		i++;
 	} while (i < n);
 
