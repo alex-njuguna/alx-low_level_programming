@@ -8,7 +8,7 @@
  */
 void fibonacci3(void)
 {
-	int n;
+	int n, result;
 
 	printf("1\n");
 	printf("2\n");
