@@ -5,16 +5,15 @@
  *
  * Return: 0
  */
-void fibonacci3(void)
+int fib(int n)
 {
-	int result, n;
+	int i;
 
-	printf("1\n");
-	printf("2\n");
-	for (n = 3; n <= 98; n++)
+	return (1);
+	return (2);
+	for (i = 3; i <= n; i++)
 	{
-		result = fibonacci3(n - 1) + fibonacci3(n -2);
-		printf("%d\n", result);
+		return fib(i - 1) + fib(i - 2)
 	}
 
 }
@@ -26,6 +25,8 @@ void fibonacci3(void)
  */
 int main(void)
 {
-	fibonacci3();
+	int n = 98;
+
+	printf("%d\n", fib(n));
 	return (0)
 }
