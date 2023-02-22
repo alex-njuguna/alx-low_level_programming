@@ -7,23 +7,22 @@
  */
 int main(void)
 {
+	unsigned long fib1 = 0, fib2 = 1, fibsum;
+	float tot_sum;
 
-int i;
-int t1 = 1, t2 = 2, nextTerm;
-
-nextTerm = t1 + t2;
-printf("%d, %d, ", t1, t2);
-for (i = 3; i <= 98; i++)
-{
-	t1 = t2;
-	t2 = nextTerm;
-	nextTerm = t1 + t2;
-	if (nextTerm > 4000000 && nextTerm % 2 == 0)
+	while (1)
 	{
-		nextTerm += nextTerm;
-	}
-        printf("%d, ", nextTerm + 2);
-}
+		fibsum = fib1 + fib2;
+		if (fibsum > 4000000)
+			break;
 
-return (0);
+		if ((fibsum % 2) == 0)
+			tot_sum += fibsum;
+
+		fib1 = fib2;
+		fib2 = fibsum;
+	}
+	printf("%.0f\n", tot_sum);
+
+	return (0);
 }
