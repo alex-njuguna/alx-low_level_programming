@@ -3,18 +3,19 @@
 
 /**
  * fibonacci3 - print 98 fibonnaci
- * @n: 98
+ *
  * Return: 0
  */
-void fibonacci3(int n)
+void fibonacci3(void)
 {
-	int result;
+	int n;
 
-	if ( n == 1)
-		printf("1\n");
-	else if (n == 2)
-		printf("2\n");
-	else:
-		result = ((fibonacci3(n - 1)) + fibonacci3(n - 2));
+	printf("1\n");
+	printf("2\n");
+	for (n = 3; n <= 98; n++)
+	{
+		result = ((fibonacci3(n - 1)) + (fibonacci3(n -2)));
 		printf("%d\n", result);
+	}
+
 }
