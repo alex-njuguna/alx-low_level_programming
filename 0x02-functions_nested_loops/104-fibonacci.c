@@ -13,7 +13,7 @@ int fib(int n)
 	return (2);
 	for (i = 3; i <= n; i++)
 	{
-		return fib(i - 1) + fib(i - 2)
+		return fib(i - 1) + fib(i - 2);
 	}
 
 }
@@ -28,5 +28,5 @@ int main(void)
 	int n = 98;
 
 	printf("%d\n", fib(n));
-	return (0)
+	return (0);
 }
