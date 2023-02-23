@@ -7,15 +7,12 @@
  */
 int _isupper(int c)
 {
-	char mychar;
-
-	for (mychar = 'A'; mychar <=  'Z'; ++mychar)
-	{
-		if (c == mychar)
-		{
-			return (1);
-		}
-		else
-			return (0);
-	}
+if (c >= 'A' && c <= 'Z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
