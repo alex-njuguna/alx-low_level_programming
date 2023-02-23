@@ -5,7 +5,7 @@
  * multiples_of_3 - check for multiples of 3 and
  * replace them with Fizz
  */
-void multiples_of_3(void)
+int main(void)
 {
 	int i;
 
@@ -21,4 +21,5 @@ void multiples_of_3(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+	return (0);
 }
