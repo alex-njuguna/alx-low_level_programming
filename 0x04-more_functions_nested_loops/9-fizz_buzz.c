@@ -22,12 +22,3 @@ void multiples_of_3(void)
 	}
 	printf("\n");
 }
-/**
- * main - entry point
- * Return: 0
- */
-int main(void)
-{
-	multiples_of_3();
-	return (0);
-}
