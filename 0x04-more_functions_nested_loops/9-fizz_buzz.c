@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * multiples_of_3 - check for multiples of 3 and
+ * main - check for multiples of 3 and
  * replace them with Fizz
+ * Return: 0
  */
 int main(void)
 {
