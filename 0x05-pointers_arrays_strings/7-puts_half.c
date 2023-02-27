@@ -14,7 +14,7 @@ count++;
 }
 if (count % 2 != 0)
 {
-for (i = 0; i < (count - 1) / 2; i++)
+for (i = (count -1) / 2; i < count; i++)
 {
 _putchar(str[i]);
 }
