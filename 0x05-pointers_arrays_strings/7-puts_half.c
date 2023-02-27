@@ -21,7 +21,7 @@ _putchar(str[i]);
 }
 else
 {
-for (j = 0; i < count / 2; j++)
+for (j = 0; j < count / 2; j++)
 {
 _putchar(str[j]);
 }
