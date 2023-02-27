@@ -2,7 +2,7 @@
 
 /**
 *puts2 - print all characters in a str
-@str: test par
+*@str: test par
 */
 void puts2(char *str)
 {
