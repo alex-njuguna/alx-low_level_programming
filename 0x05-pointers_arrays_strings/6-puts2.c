@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
 *puts2 - print all characters in a str
@@ -6,7 +7,7 @@
 */
 void puts2(char *str)
 {
-int length = (sizeof(str) / sizeof(str[0])) - 1;
+int length = (sizeof(*str) / sizeof(*str[0])) - 1;
 
 for (int i = 0; i < length; i++)
 {
