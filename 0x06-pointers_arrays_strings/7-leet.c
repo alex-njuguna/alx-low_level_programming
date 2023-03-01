@@ -2,24 +2,24 @@
 
 /**
 * leet - encode string to digits
-* @str: par
+* @s: par
 *Return: char
 */
-char *leet(char *str)
+char *leet(char *s)
 {
-char *str1[] = "aAeEoOtTlL";
-char *str2[] = "4433007711";
+char *str1 = "aAeEoOtTlL";
+char *str2 = "4433007711";
 int i, j;
 
-for (i = 0; str[i] != '\0'; i++)
+for (i = 0; s[i] != '\0'; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-if (str1[j] == str[i])
+if (str1[j] == s[i])
 {
-str[i] == str2[j];
+s[i] == str2[j];
 }
 }
 }
-return (str);
+return (s);
 }
