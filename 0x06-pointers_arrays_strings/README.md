@@ -1,0 +1,1 @@
+ponters arrays and strings
