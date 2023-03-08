@@ -64,8 +64,8 @@ int wildcmp_helper(char *s1, char *s2, int s1_index, int s2_index)
  */
 int wildcmp(char *s1, char *s2)
 {
-	int y;
-	
-	y = (wildcmp_helper(s1, s2, 0, 0));
-	return (y);
+int y;
+
+y = (wildcmp_helper(s1, s2, 0, 0));
+return (y);
 }
