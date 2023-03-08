@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
 * _sqrt_helper - calculate the square root of a number
