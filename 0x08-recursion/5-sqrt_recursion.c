@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 
 /**
 * _sqrt_helper - calculate the square root of a number
@@ -8,6 +8,8 @@
 */
 int _sqrt_helper(int n, int i)
 {
+int result;
+
 if (i * i > n)
 {
 return (-1);
@@ -18,7 +20,8 @@ return (i);
 }
 else
 {
-return _sqrt_helper(n, i + 1);
+result = _sqrt_helper(n, i + 1);
+return (result);
 }
 }
 
@@ -29,12 +32,15 @@ return _sqrt_helper(n, i + 1);
  */
 int _sqrt_recursion(int n)
 {
+int y;
+
 if (n < 0)
 {
 return (-1);
 }
 else
 {
-return _sqrt_helper(n, 0);
+y = _sqrt_helper(n, 0);
+return (y);
 }
 }
