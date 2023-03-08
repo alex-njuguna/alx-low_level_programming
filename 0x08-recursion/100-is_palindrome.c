@@ -30,7 +30,7 @@ return (length);
 int check_palindrome(char *s, int start, int end)
 {
 int result;
-	
+
 if (start >= end)
 {
 return (1);
