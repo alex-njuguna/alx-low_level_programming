@@ -10,6 +10,12 @@ size_t print_listint(const listint_t *h)
 {
 	size_t nodeNumber = 0;
 
+	if (h -> NULL)
+	{
+		printf("no elements in the list");
+		return (-1);
+	}
+
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
