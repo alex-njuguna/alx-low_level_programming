@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * listint_len - return num of elements in a list
