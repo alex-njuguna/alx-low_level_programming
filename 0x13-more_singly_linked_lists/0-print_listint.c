@@ -10,7 +10,7 @@ size_t print_listint(const listint_t *h)
 {
 	size_t nodeNumber = 0;
 
-	if (h -> NULL)
+	if (h == NULL)
 	{
 		printf("no elements in the list");
 		return (-1);
