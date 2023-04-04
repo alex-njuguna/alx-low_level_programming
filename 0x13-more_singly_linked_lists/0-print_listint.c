@@ -13,7 +13,7 @@ size_t print_listint(const listint_t *h)
 	if (h == NULL)
 	{
 		printf("list is empty\n");
-		return;
+		return (-1);
 	}
 
 	while (h != NULL)
