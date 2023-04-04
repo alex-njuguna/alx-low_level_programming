@@ -7,30 +7,13 @@
  */
 size_t print_listint(const listint_t *h)
 {
-size_t count = 0;
+	size_t nodes = 0;
 
-while (h != NULL)
-{
-int num = h->n;
-
-if (num < 0)
-{
-_putchar('-');
-num = -num;
-}
-
-if (num / 10)
-{
-print_listint((const listint_t *)(num / 10));
-}
-
-_putchar(num % 10 + '0');
-
-h = h->next;
-count++;
-}
-
-_putchar('\n');
-
-return (count);
+	while(h != NULL)
+	{
+		printf("%d\n", h -> n);
+		nodes++;
+		h = h -> next;
+	}
+	return (nodes);
 }
