@@ -4,7 +4,8 @@
 
 /**
  * free_list - free a list
- * @head: pointer to the first node
+ *
+ * @head: A pointer to the first node of the list to free
  */
 void free_list(list_t *head)
 {

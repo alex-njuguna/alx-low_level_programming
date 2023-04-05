@@ -5,8 +5,8 @@
 
 /**
  * list_len - return number of elemnts in a list.
- * @h: name
- * Return: number of elements
+ * @h: name of the list
+ * Return: the number of nodes.
  */
 size_t list_len(const list_t *h)
 {

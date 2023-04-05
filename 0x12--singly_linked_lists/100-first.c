@@ -1,12 +1,13 @@
 #include<stdio.h>
 
 /**
- * myStartupFun - constructor to add
+ * myStartupFun - Apply the constructor attribute to myStartupFun() so that it
+ *   is executed before main()
  */
 void myStartupFun(void) __attribute__ ((constructor));
 
 /**
- * myStartupFun - the juice
+ * myStartupFun - implementation of myStartupFun
  */
 void myStartupFun(void)
 {
