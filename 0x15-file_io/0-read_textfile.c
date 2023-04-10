@@ -3,7 +3,7 @@
 /**
  * read_textfile - read a text file and prints it
  * @filename: pointer to the file name
- * letters:params
+ * @letters:params
  * Return:no of letters
  */
 ssize_t read_textfile(const char *filename, size_t letters)
@@ -33,7 +33,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	write_count = write(STDOUT_FILENO, buffer, read_count);
 	free(buffer);
 	close(fd);
-	
+
 	if (read_count != write_count)
 		return (0);
 
